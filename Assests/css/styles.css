@@ -20,8 +20,21 @@
     color:white;
     font-family: 'Times New Roman', Times, serif;
     font-weight: 500;
+    
+}
+.cardtxt1{
+    color:black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    
 }
 .badge-primary {
     color: #212529;
     background-color: #FFCC00;
+    
+}
+
+.flecs{
+    display: flex;
+    /* flex-direction: row; */
 }
