@@ -1,10 +1,12 @@
 /* navbar portion starts */
 .nav-item>a:hover{
-    background-color:goldenrod;
+    margin: 0;
+    padding: 0;
+    background-color:#FFC107;
 }
 
 .active{
-    background-color:goldenrod;   
+    background-color:#FFC107;   
 }
 
 
@@ -37,4 +39,5 @@
 .flecs{
     display: flex;
     /* flex-direction: row; */
+   
 }
