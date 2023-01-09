@@ -1,0 +1,27 @@
+/* navbar portion starts */
+.nav-item>a:hover{
+    background-color:goldenrod;
+}
+
+.active{
+    background-color:goldenrod;   
+}
+
+
+/* navbar portion ends */
+
+/* body portion starts */
+
+.nouline{
+    text-decoration: none;
+}
+
+.cardtxt{
+    color:white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+.badge-primary {
+    color: #212529;
+    background-color: #FFCC00;
+}
