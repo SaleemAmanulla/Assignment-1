@@ -44,6 +44,13 @@ body{
     height: 60px;
    
 }
+.feat2{
+    height: 80px;
+    background-color: #FFC107;
+}
+.inner2{
+    height: 80px;
+}
 
 /* Featured news Area starts*/
 .container1{
@@ -185,3 +192,16 @@ body{
 }
 
 /* Footer Content Ends */
+
+
+
+
+
+/* news.html */
+.newsimg4{
+    width: 550px;
+}
+
+.newsimg5{
+    width: 550px;
+}
