@@ -1,339 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ABC News</title>
 
+    <!-- Favicon -->
+    <link rel="icon" href="./Assests/favicon.ico">
 
-     <!-- Bootstrap -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
-     <link rel="stylesheet" href="./Assests/css/bootstrap.min.css">
-     <link rel="stylesheet" href="./Assests/css/styles.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assests/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./Assests/css/styles.css">
 
-     <!-- Icons -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
-     
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
 </head>
+
 <body>
-    
 
 
 
 
-<!-- Logo Topbar Start -->
-<div class="container-fluid d-none d-sm-block">
-  <div class="row align-items-center bg-white py-1 px-sm-5">
-      <div class="col-lg-4">
-          <a href="index.html" class="navbar-brand p-0 d-none d-sm-block">
-              <h1 class="m-0 display-2 text-uppercase text-warning fw-semibold">ABC<small class="text-secondary font-weight-normal">News</small></h1>
-          </a>
-      </div>
-    
-  </div>
-</div>
-<!-- Logo Topbar End --> 
+
+    <!-- Logo Topbar Start -->
+    <div class="container-fluid d-none d-sm-block">
+        <div class="row align-items-center bg-white py-1 px-sm-5">
+            <div class="col-lg-4">
+                <a href="index.html" class="navbar-brand p-0 d-none d-sm-block">
+                    <h1 class="m-0 display-2 text-uppercase text-warning fw-semibold">ABC<small
+                            class="text-secondary font-weight-normal">News</small></h1>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Logo Topbar End -->
 
 
 
-<!-- navbar start -->
-<nav class="navbar navbar-expand  bg-body-tertiary bg-dark py-0" data-bs-theme="dark">
-    <div class=" ms-5 container-fluid">
-      
-      <div class="collapse navbar-collapse fs-4" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active ms-0" aria-current="page" href="/index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ms-1" href="#Featurednews">Featured News</a>
-          </li>
-          <li class="nav-item">
-            <a href="./News.html" class="nav-link ms-1">Single News</a>
-          </li>
-          <li class="nav-item dropdown">
-            
-                <button class="btn btn-dark nav-link dropdown-toggle ms-1 bg-transparent border-0" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Catagory
-                </button>
-                <ul class="dropdown-menu dropdown-menu-dark">
-                  <li><a class="dropdown-item" href="#">Business</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Crime</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Law and Order</a></li>
-                 
-                  
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand  bg-body-tertiary bg-dark py-0" data-bs-theme="dark">
+        <div class=" ms-5 container-fluid">
+
+            <div class="collapse navbar-collapse fs-5" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active ms-0"
+                            style="border-right: 1px gray solid; border-left:1px gray solid;" aria-current="page"
+                            href="/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ms-1" style="border-right: 1px gray solid;" href="#Featurednews">Featured
+                            News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./News.html" style="border-right: 1px gray solid;" class="nav-link ms-1">Single
+                            News</a>
+                    </li>
+                    <li class="nav-item dropdown" style="border-right: 1px gray solid;">
+
+                        <button class="btn btn-dark nav-link dropdown-toggle ms-1 bg-transparent border-0" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Catagory
+                        </button>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="#">Business</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Crime</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Law and Order</a></li>
+
+
+                        </ul>
+                    </li>
+
                 </ul>
-          </li>    
-          
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-light" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-</nav>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-light" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
 
-<!-- navbar ends -->
+    <!-- navbar ends -->
 
-<!-- body start  -->
-<!-- Carousel area starts -->
-<div class="container"> 
-    <div class="row ">
-        <div class="col-12 container-fluid px-0" >
-            <div id="carouselExampleAutoplaying" class="carousel slide container" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    
-                </div>
+    <!-- body start  -->
+    <!-- Carousel area starts -->
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-12 container-fluid px-0">
+                <div id="carouselExampleAutoplaying" class="carousel slide container" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
 
-                <div class="carousel-inner " style="height: 75vh; " >
-                    <!-- 1st slide -->
-                    <div class="carousel-item active sizer">
-                      <img src="./Assests/images/news-img-1.jpeg" class="d-block img-fluid"  alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                    </div>
 
-                            <div class="slide1">
-                                <a class=" bg-warning h4 text-uppercase font-weight-semi-bold p-2 me-2 rounded-2 nouline"
-                                href="#">Business</a>
-                                    
-                                <h5 class="ms-4 pt-2">Jan 07, 2023</h5>
+                    <div class="carousel-inner " style="height: 75%; ">
+                        <!-- 1st slide -->
+                        <div class="carousel-item active sizer">
+                            <img src="./Assests/images/news-img-1.jpeg" class="d-block img-fluid" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+
+                                <div class="slide1">
+                                    <a class=" bg-warning text-dark h6 text-uppercase font-weight-semi-bold p-2 me-2 rounded-2 nouline"
+                                        href="#">Business</a>
+
+                                    <h5 class="ms-4 pt-2">Jan 07, 2023</h5>
+                                </div>
+
+                                <a class="bg-body-secondary text-dark nouline px-4 h5" href="#">PayPal enables transfer
+                                    of digital currencies to external wallets</a>
                             </div>
-                       
-                            <a class="bg-body-secondary text-dark nouline px-4 h5" href="#">PayPal enables transfer of digital currencies to external wallets</a>
+                        </div>
+                        <!-- 2nd slide -->
+                        <div class="carousel-item sizer" style="height: 75%; ">
+                            <img src="./Assests/images/news-img-2.jpeg" class="d-block w-100 " alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+
+                                <div class="slide1">
+                                    <a class="bg-warning text-dark h6 text-uppercase font-weight-semi-bold p-2 me-2 rounded-2 nouline"
+                                        href="#">Business</a>
+
+                                    <h5 class="ms-4 pt-2">Jan 08, 2023</h5>
+                                </div>
+
+                                <a class="bg-body-secondary text-dark nouline px-4 h5" href="#">Italian Parliament
+                                    Approves 26% Crypto-Gains Tax in 2023 Budget</a>
+                            </div>
+                        </div>
+                        <!-- 3rd slide -->
+                        <div class="carousel-item sizer" style="height: 75%;">
+                            <img src="./Assests/images/news-img-3.jpeg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+
+                                <div class="slide1">
+                                    <a class="bg-warning h6 text-dark text-uppercase font-weight-semi-bold p-2 me-2 rounded-2 nouline"
+                                        href="#">Business</a>
+                                    <h5 class="ms-4 pt-2">Jan 09, 2023</h5>
+                                </div>
+
+                                <a class="bg-body-secondary text-dark nouline px-4 h5" href="#">Microstrategy Buys More
+                                    Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</a>
+
+                            </div>
                         </div>
                     </div>
-                  <!-- 2nd slide -->
-                    <div class="carousel-item sizer" style="height: 75vh; ">
-                      <img src="./Assests/images/news-img-2.jpeg" class="d-block w-100 " alt="...">
-                        <div class="carousel-caption d-none d-md-block">
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- Carousel area ends -->
 
-                           <div class="slide1">
-                                <a class="bg-warning h4 text-uppercase font-weight-semi-bold p-2 me-2 rounded-2 nouline"
-                                    href="#">Business</a>
-                                  
-                                <h5 class="ms-4 pt-2">Jan 08, 2023</h5>
-                            </div>
-                        
-                            <a class="bg-body-secondary text-dark nouline px-4 h5" href="#">Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</a>
+        <!-- Featured title starts-->
+        <div class="row mt-5" id="Featurednews">
+            <div class="col-12">
+                <div class="container mb-0 feat">
+                    <div class="inner1 mx-1 px-3 mb-0 bg-white">
+                        <h4 class="text-uppercase p-3" style="font-weight: 700;">Featured news</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- featured titile ends -->
+
+        <!-- Featured news content starts -->
+        <div class="row mt-4 ">
+            <div class="col-6">
+                <div class="container2">
+                    <div class="card" style="width: 45rem;">
+                        <img src="./Assests/images/news-img-1.jpeg" class=" card-img-top" alt="...">
+                        <div class="card-body">
+                            <a class="nouline text-warning hovhovgold" href="./News.html">
+                                <h6 class="card-text">PayPal enables transfer of digital currencies to external wallets
+                                </h6>
+                            </a>
                         </div>
                     </div>
-                  <!-- 3rd slide -->
-                    <div class="carousel-item sizer" style="height: 75vh;">
-                      <img src="./Assests/images/news-img-3.jpeg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-
-                            <div class="slide1">
-                                <a class="bg-warning h4 text-uppercase font-weight-semi-bold p-2 me-2 rounded-2 nouline"
-                                    href="#">Business</a>
-                                <h5 class="ms-4 pt-2">Jan 09, 2023</h5>
-                            </div>
-                            
-                            <a class="bg-body-secondary text-dark nouline px-4 h5" href="#">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</a>
-                                  
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="container2">
+                    <div class="card" style="width: 45rem;">
+                        <img src="./Assests/images/news-img-2.jpeg" style="height: 18rem;" class=" card-img-top"
+                            alt="...">
+                        <div class="card-body">
+                            <a class="nouline text-warning hovhovgold" href="./News.html">
+                                <h6 class="card-text">Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget
+                                </h6>
+                            </a>
                         </div>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-            </div>          
-        </div>
-    </div>    
-   <!-- Carousel area ends -->
+            </div>
 
-    <!-- Featured title starts-->
-    <div class="row mt-5"id="Featurednews">
-        <div class="col-12">
-            <div class="container mb-0 feat">
-                <div class="inner1 mx-1 px-3 mb-0 bg-white">
-                    <h4 class="text-uppercase p-3" style="font-weight: 700;">Featured news</h4>
-                </div>   
-            </div>
         </div>
-    </div>
-    <!-- featured titile ends -->
+        <div class="row mt-2 mb-5" style="justify-content:space-between">
+            <div class="col-xl-3 col-lg-4 mt-4">
+                <div class="card" style="width: 25rem;">
+                    <img src="./Assests/images/news-img-3.jpeg" style="height: 18rem;" class=" card-img-top" alt="...">
+                    <div class="card-body" style="height: 5rem;">
+                        <a class="nouline text-warning hovhovgold" href="./News.html">
+                            <h6 class=" card-text">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to
+                                132,500 BTC</h6>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
-    <!-- Featured news content starts -->
-    <div class="row mt-4" >
-        <div class="col-4 mt-4">
-            <div class="container1">
-                <div class="box">
-                    <div class="imgbox shape1">
-                        <img class="rounded-2" src="./Assests/images/news-img-3.jpeg" alt="">
-                    </div>
-                    <div class="content bg-white rounded-2">
-                        <a class="nouline text-warning hovhovgold" href="#"><h5>Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</h5></a>
+            <div class="col-xl-3 col-lg-4 mt-4">
+                <div class="card" style="width: 25rem;">
+                    <img src="./Assests/images/news-img-4.jpeg" style="height: 18rem;" class=" card-img-top" alt="...">
+                    <div class="card-body pt-4" style="height: 5rem;">
+                        <a class="nouline text-warning hovhovgold " href="./News.html">
+                            <h6 class="card-text">Bitcoin Miners' Revenue Hits $9.55 Billion in 2022</h6>
+                        </a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="col-4 mt-4">
-            <div class="container1">
-                <div class="box">
-                    <div class="imgbox shape2">
-                        <img class="rounded-2" src="./Assests/images/news-img-4.jpeg" alt="">
-                    </div>
-                    <div class="content bg-white rounded-2">
-                        <a class="nouline text-warning hovhovgold" href="#"><h5>Bitcoin Miners' Revenue Hits $9.55 Billion in 2022</h5></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-4 mt-4">
-            <div class="container1">
-                <div class="box">
-                    <div class="imgbox shape3">
-                        <img class="rounded-2" src="./Assests/images/news-img-5.jpeg" alt="">
-                    </div>
-                    <div class="content bg-body-secondary rounded-2">
-                        <a class="nouline text-warning hovhovgold"  href="#"><h5>Mango Markets Exploiter Eisenberg Arrested in Puerto Rico</h5></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row mt-4">
-        <div class="col-6">
-            <div class="container2">
-                <div class="box2">
-                    <div class="imgbox2 shape4">
-                        <img class="rounded-2" src="./Assests/images/news-img-1.jpeg" alt="">
-                    </div>
-                    <div class="content2 bg-body-secondary rounded-2">
-                        <a class="nouline text-warning hovhovgold" href="#"><h5 class="ps-3">PayPal enables transfer of digital currencies to external wallets</h5></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-6">
-            <div class="container2">
-                <div class="box2">
-                    <div class="imgbox2 shape5">
-                        <img class="rounded-2" src="./Assests/images/news-img-2.jpeg" alt="">
-                    </div>
-                    <div class="content2 bg-body-secondary rounded-2">
-                        <a class="nouline text-warning hovhovgold" href="#"><h5>Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</h5></a>
+
+            <div class="col-xl-3 col-lg-4  mt-4">
+                <div class="container1">
+                    <div class="card" style="width: 25rem;">
+                        <img src="./Assests/images/news-img-5.jpeg" style="height: 18rem;" class=" card-img-top"
+                            alt="...">
+                        <div class="card-body" style="height: 5rem;">
+                            <a class="nouline text-warning hovhovgold" href="./News.html">
+                                <h6 class="card-text">Mango Markets Exploiter Eisenberg Arrested in Puerto Rico</h6>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
-</div>
 
-<!-- Footer Section Starts -->
-<div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5">
-    <div class="row py-4">
-        <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="mb-4 text-white text-uppercase font-weight-bold"> Get In Touch</h5>
-            <p class="text-white font-weight-medium"><i class="bi bi-geo-alt-fill me-2"></i>Abdul Kalam Street,Chennai,Tamil Nadu.</p>
-           
-            <p class="text-white font-weight-medium"><i class="bi bi-telephone-fill me-2"></i>+91 9876543210</p>
-            <p class="text-white font-weight-medium"><i class="bi bi-envelope-at-fill me-2"></i>info@abcnews.com</p>
-            <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Follow Us</h6>
-            <div class="d-flex justify-content-start">
-                <a class="btn btn-lg btn-secondary btn-lg-square m-2" href="#"><i class="bi bi-twitter"></i></a>
-                <a class="btn btn-secondary btn-lg btn-lg-square m-2" href="#"><i class="bi bi-facebook"></i></a>
-                <a class="btn btn-lg btn-secondary btn-lg-square m-2 " href="#"><i class="bi bi-linkedin"></i></a>
-                <a class="btn btn-lg btn-secondary btn-lg-square m-2" href="#"><i class="bi bi-instagram"></i></a>
-                <a class="btn btn-lg btn-secondary btn-lg-square m-2" href="#"><i class="bi bi-youtube"></i></a>
+    <!-- Footer Section Starts -->
+    <div class="container-fluid bg-dark pt-5 px-sm-3 px-md-5">
+        <div class="row py-4">
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold"> Get In Touch</h5>
+                <p class="text-white font-weight-medium"><i class="bi bi-geo-alt-fill me-2"></i>Abdul Kalam
+                    Street,Chennai,Tamil Nadu.</p>
+
+                <p class="text-white font-weight-medium"><i class="bi bi-telephone-fill me-2"></i>+91 9876543210</p>
+                <p class="text-white font-weight-medium"><i class="bi bi-envelope-at-fill me-2"></i>info@abcnews.com</p>
+                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Follow Us</h6>
+                <div class="d-flex justify-content-start mb-2">
+                    <a class="btn btn-lg btn-secondary btn-lg-square" href="#"><i class="bi bi-twitter"></i></a>
+                    <a class="btn btn-secondary btn-lg btn-lg-square ms-2" href="#"><i class="bi bi-facebook"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square ms-2" href="#"><i class="bi bi-linkedin"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square ms-2" href="#"><i class="bi bi-instagram"></i></a>
+                    <a class="btn btn-lg btn-secondary btn-lg-square ms-2" href="#"><i class="bi bi-youtube"></i></a>
+                </div>
             </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold"> Popular News</h5>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge rounded-1  text-uppercase font-weight-semi-bold  p-1 me-2 nouline hovhov1"
+                            href="">Business</a>
+                        <a class="text-white-50 nouline hovhov" href="#"><small>Jan 07, 2023</small></a>
+                    </div>
+                    <a class="small text-white-50 nouline hovhov text-uppercase font-weight-medium" href="#">PayPal
+                        enables transfer of digital currencies to external wallets</a>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge rounded-1 text-uppercase font-weight-semi-bold p-1 me-2 nouline hovhov1"
+                            href="">Business</a>
+                        <a class="text-white-50 nouline hovhov" href=""><small>Jan 08, 2023</small></a>
+                    </div>
+                    <a class="small text-white-50 nouline hovhov text-uppercase font-weight-medium" href="">Italian
+                        Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</a>
+                </div>
+                <div class="mb-3">
+                    <div class="mb-2">
+                        <a class="badge rounded-1 nouline text-uppercase font-weight-semi-bold p-1 me-2 hovhov1"
+                            href="">Business</a>
+                        <a class="text-white-50 nouline hovhov" href=""><small>Jan 09, 2023</small></a>
+                    </div>
+                    <a class="small text-white-50 nouline text-uppercase font-weight-medium hovhov"
+                        href="">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categories</h5>
+                <div class="m-1">
+                    <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Crime</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Entertainment</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Travel</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Lifestyle</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">college</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Election</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Sports</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">India</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">International</a>
+                    <a href="" class="btn btn-sm btn-secondary m-1">Culture</a>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-5">
+                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Flickr Photos</h5>
+                <div class="row">
+
+                    <div class="col-4 mb-3">
+                        <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-1.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-2.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-3.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-4.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-5.jpg" alt=""></a>
+                    </div>
+                    <div class="col-4 mb-3">
+                        <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-1.jpg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+
         </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="mb-4 text-white text-uppercase font-weight-bold"> Popular News</h5>
-            <div class="mb-3">
-                <div class="mb-2">
-                    <a class="badge rounded-1  text-uppercase font-weight-semi-bold  p-1 me-2 nouline hovhov1" href="">Business</a>
-                    <a class="text-white-50 nouline hovhov" href="#"><small>Jan 07, 2023</small></a>
-                </div>
-                <a class="small text-white-50 nouline hovhov text-uppercase font-weight-medium" href="#">PayPal enables transfer of digital currencies to external wallets</a>
-            </div>
-            <div class="mb-3">
-                <div class="mb-2">
-                    <a class="badge rounded-1 text-uppercase font-weight-semi-bold p-1 me-2 nouline hovhov1" href="">Business</a>
-                    <a class="text-white-50 nouline hovhov" href=""><small>Jan 08, 2023</small></a>
-                </div>
-                <a class="small text-white-50 nouline hovhov text-uppercase font-weight-medium" href="">Italian Parliament Approves 26% Crypto-Gains Tax in 2023 Budget</a>        
-            </div>
-            <div class="mb-3">
-                <div class="mb-2">
-                    <a class="badge rounded-1 nouline text-uppercase font-weight-semi-bold p-1 me-2 hovhov1" href="">Business</a>
-                    <a class="text-white-50 nouline hovhov" href=""><small>Jan 09, 2023</small></a>
-                </div>
-                <a class="small text-white-50 nouline text-uppercase font-weight-medium hovhov" href="">Microstrategy Buys More Bitcoin — Company's Crypto Holdings Grow to 132,500 BTC</a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="mb-4 text-white text-uppercase font-weight-bold">Categories</h5>
-            <div class="m-n1">
-                <a href="" class="btn btn-sm btn-secondary m-1">Politics</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Business</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Corporate</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Health</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Education</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Science</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Crime</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Foods</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Entertainment</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Travel</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Lifestyle</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">college</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Election</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Sports</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">India</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">International</a>
-                <a href="" class="btn btn-sm btn-secondary m-1">Culture</a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 mb-5">
-            <h5 class="mb-4 text-white text-uppercase font-weight-bold">Flickr Photos</h5>
-            <div class="row">
-                
-                <div class="col-4 mb-3">
-                    <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-1.jpg" alt=""></a>
-                </div>
-                <div class="col-4 mb-3">
-                    <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-2.jpg" alt=""></a>
-                </div>
-                <div class="col-4 mb-3">
-                    <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-3.jpg" alt=""></a>
-                </div>
-                <div class="col-4 mb-3">
-                    <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-4.jpg" alt=""></a>
-                </div>
-                <div class="col-4 mb-3">
-                    <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-5.jpg" alt=""></a>
-                </div>
-                <div class="col-4 mb-3">
-                    <a href="#"><img class="w-100" src="./Assests/images/flickr/fli-img-1.jpg" alt=""></a>
-                </div>
-            </div>
-        </div>
-        
     </div>
-</div>
-<div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
-    <p class="m-0 text-center">&copy; <a class="nouline hovhov text-warning hovhovgold" href="#">ABCNews</a>. All Rights Reserved.
-    </p>
-</div>
-<!-- Footer section end -->
+    <div class="container-fluid py-4 px-sm-3 px-md-5" style="background: #111111;">
+        <p class="m-0 text-center">&copy; <a class="nouline hovhov text-warning hovhovgold" href="#">ABCNews</a>. All
+            Rights Reserved.
+        </p>
+    </div>
+    <!-- Footer section end -->
 
-<!-- Back to top -->
-<div class="overlay">
-    <a href="#top" class="btn btn-warning btn-square float back-to-top"><i class="bi bi-arrow-up-circle type-bolder"></i></a>
+    <!-- Back to top arrow -->
+    <div class="overlay">
+        <a href="#top" class="btn btn-warning btn-square float back-to-top"><i
+                class="bi bi-arrow-up-circle type-bolder"></i></a>
 
-</div>
+    </div>
 
 
 
