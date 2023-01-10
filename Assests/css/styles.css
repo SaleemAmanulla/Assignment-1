@@ -1,7 +1,6 @@
 /* navbar portion starts */
 .nav-item>a:hover{
-    margin: 0;
-    padding: 0;
+   
     background-color:#FFC107;
 }
 
@@ -14,30 +13,29 @@
 
 /* body portion starts */
 
+.widthh{
+    height: 100px;
+}
+
+/* .txtalign{
+    justify-content: space-around;
+}
+ */
+
 .nouline{
     text-decoration: none;
 }
 
-.cardtxt{
-    color:white;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 500;
-    
-}
-.cardtxt1{
-    color:black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: 800;
-    
-}
-.badge-primary {
-    color: #212529;
-    background-color: #FFCC00;
-    
-}
-
-.flecs{
+.slide1{
     display: flex;
-    /* flex-direction: row; */
-   
+    flex-direction: row;
+}
+/* .slide1a{
+    display: flex;
+    flex-direction: column;
+ 
+} */
+.sizer{
+    height: 70vh;
+    width: auto;
 }
