@@ -12,15 +12,14 @@
 /* navbar portion ends */
 
 /* body portion starts */
+body{
+    background-color: #9a9da254;
+}
 
 .widthh{
     height: 100px;
 }
 
-/* .txtalign{
-    justify-content: space-around;
-}
- */
 
 .nouline{
     text-decoration: none;
@@ -30,12 +29,159 @@
     display: flex;
     flex-direction: row;
 }
-/* .slide1a{
-    display: flex;
-    flex-direction: column;
- 
-} */
+
 .sizer{
     height: 70vh;
     width: auto;
 }
+
+.feat{
+    height: 60px;
+    background-color: #FFC107;
+}
+
+.inner1{
+    height: 60px;
+   
+}
+
+/* Featured news Area starts*/
+.container1{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container1 .box{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 3rem;
+}
+.container1 .box:hover .imgbox{
+    transform: translate(-2.5rem, -5.5rem);
+}
+.container1 .box:hover .content{
+    transform: translate(1.5rem, 6,1.5rem);
+}
+/* Shape shifters */
+.container1 .box:hover .shape2{
+    transform: translate(0rem, -5.5rem);
+}
+
+.container1 .box:hover .shape3{
+    transform: translate(2.5rem, -5.5rem);
+}
+
+.content{
+    width: 300px;
+    height: 300px;
+}
+.content > a{
+    position: absolute;
+    bottom: 10px;
+}
+.imgbox{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgbox img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    resize: both;
+}
+/* Featured news area ends */
+
+/* feature container2 starts */
+.container2{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container2 .box2{
+    position: relative;
+    width: 600px;
+    height: 500px;
+    margin: 6rem;
+}
+.container2 .box2:hover .imgbox2{
+    transform: translate(2.5rem, 2.5rem);
+}
+.container2 .box2:hover .content2{
+    transform: translate(-1.5rem, -3,-1.5rem);
+}
+
+/* Shape shifters */
+.container2 .box2:hover .shape4{
+    transform: translate(-2.5rem, 2.5rem);
+}
+
+
+
+
+.content2{
+    width: 600px;
+    height: 500px;
+}
+.content2 > a{
+    position: absolute;
+    top: 10px;
+}
+.imgbox2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgbox2 img{
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    resize: both;
+}
+/* Feature container2 ends */
+
+/* Footer content starts */
+.hovhov:hover{
+    text-decoration: underline grey;
+
+}
+
+.hovhov1{
+    background-color: #FFC107;
+}
+.hovhov1:hover{
+    background-color: #b28706;
+}
+
+.hovhovgold:hover{
+    text-decoration: underline #FFC107;
+}
+
+.float{
+	position:fixed;
+	width:40px;
+	height:40px;
+	bottom:40px;
+	right:40px;
+	text-align:center;
+	
+}
+
+/* Footer Content Ends */
